@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-webyom",
+  "version": "1.0.1",
+  "description": "Eslint config of webyom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webyom/eslint-config-webyom.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "webyom",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-flowtype": "^2.49.3",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-react": "^7.10.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 4"
+  }
+}
