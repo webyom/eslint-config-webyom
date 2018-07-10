@@ -1,9 +1,10 @@
 module.exports = {
-  plugins: ["react", "flowtype"],
+  plugins: ["react", "import", "flowtype"],
 
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
+    "plugin:import/recommended",
     "plugin:flowtype/recommended"
   ],
 
@@ -39,7 +40,7 @@ module.exports = {
     "no-cond-assign": 0,
     "no-constant-condition": 0,
     "no-control-regex": 0,
-    "no-duplicate-imports": 2,
+    "no-duplicate-imports": 0,
     "no-lonely-if": 2,
     "no-mixed-spaces-and-tabs": 2,
     "no-multiple-empty-lines": [2, { max: 2, maxEOF: 1 }],
@@ -88,6 +89,10 @@ module.exports = {
     "space-infix-ops": 2,
     "space-unary-ops": [2, { words: true, nonwords: false }],
     "spaced-comment": [2, "always", { exceptions: ["-+"] }],
-    "wrap-regex": 2
+    "wrap-regex": 2,
+    // Import
+    "import/no-duplicates": 2,
+    "import/no-unresolved": 0,
+    "import/namespace": 0
   }
 };
