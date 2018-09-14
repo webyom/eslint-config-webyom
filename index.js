@@ -92,6 +92,8 @@ module.exports = {
     "wrap-regex": 2,
     // Import
     "import/no-duplicates": 2,
-    "import/no-unresolved": 0
+    "import/no-unresolved": 0,
+    // React
+    "react/display-name": 0
   }
 };
