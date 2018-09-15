@@ -33,7 +33,7 @@ module.exports = {
       { exceptAfterSingleLine: true }
     ],
     "max-depth": [2, 7],
-    "max-nested-callbacks": [2, 3],
+    "max-nested-callbacks": [2, 4],
     "max-params": [2, 6],
     "new-cap": 0,
     "new-parens": 2,
